@@ -10,7 +10,7 @@ using ToDoApi.Models;
 namespace ToDoApi.Migrations
 {
     [DbContext(typeof(TarefaContext))]
-    [Migration("20220315164211_PrimeiraMigration")]
+    [Migration("20220329165400_PrimeiraMigration")]
     partial class PrimeiraMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
